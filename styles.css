@@ -1,0 +1,160 @@
+@import url("https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,300;0,400;0,500;0,600;1,300;1,400;1,500;1,600&family=Open+Sans:ital,wght@0,300;0,400;0,500;1,300;1,400&family=Seymour+One&display=swap");
+* {
+  box-sizing: border-box;
+}
+
+html,
+body,
+#root {
+  font-family: "Montserrat";
+  background: #EFEFBB;
+  background: -webkit-linear-gradient(to right, #D4D3DD, #EFEFBB);
+  background: linear-gradient(to right, #D4D3DD, #EFEFBB);
+}
+
+.form {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  align-items: center;
+  margin: auto;
+  padding-bottom: 5em;
+  padding-top: 5em;
+}
+
+.search__input {
+  width: 40em;
+  margin: auto;
+  margin-bottom: 2em;
+  outline-style: grey;
+  border-radius: 5px;
+}
+
+.search__input:focus {
+  outline-color: aliceblue;
+}
+
+.search__input:active {
+  outline-color: aquamarine;
+}
+
+.search__input::placeholder {
+  color: rgb(74, 72, 72);
+  text-align: center;
+}
+
+.search__button {
+  width: 10em;
+  padding: 0.5em;
+  border-radius: 2em;
+}
+
+.showCase {
+  width: 100%;
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  justify-content: space-around;
+  align-items: stretch;
+}
+
+.card {
+  width: 20em;
+  display: flex;
+  flex-direction: column;
+  justify-content: end;
+  align-items: center;
+  border-radius: 5em;
+  margin-bottom: 2em;
+}
+
+.card__image {
+  width: 10em;
+  margin-bottom: 2em;
+  padding: 1em;
+}
+
+.card__properties {
+  background-color: white;
+  width: 100%;
+  border-radius: 5em;
+  padding: 1em;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.card__properties--stats {
+  width: 18em;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-around;
+  align-items: center;
+}
+
+.grass {
+  background-color: #8FD594;
+}
+
+.fire {
+  background-color: #FFA05D;
+}
+
+.electric {
+  background-color: #FFE43B;
+}
+
+.water {
+  background-color: #7E97C0;
+}
+
+.ground {
+  background-color: #CAAC4D;
+}
+
+.rock {
+  background-color: #882d90;
+}
+
+.poison {
+  background-color: #9D5B9B;
+}
+
+.bug {
+  background-color: #EAFD71;
+}
+
+.dragon {
+  background-color: #97b3e6;
+}
+
+.psychic {
+  background-color: #FF96B5;
+}
+
+.flying {
+  background-color: #CDCDCD;
+}
+
+.fighting {
+  background-color: #FF5D5D;
+}
+
+.normal {
+  background-color: #FFFFFF;
+}
+
+.fairy {
+  background-color: #a079a3;
+}
+
+.ghost {
+  background-color: #2d7b90;
+}
+
+.ice {
+  background-color: #85c5d7;
+}
+
+/*# sourceMappingURL=styles.css.map */
